@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application3</string>
+    <string name="hola_francisco_bienvenido_a_tus_aplicaciones">Hola francisco Bienvenido a tus aplicaciones!</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="pagoxpromedio">Calcular Promedio</string>
+    <string name="pago_entrada_cine">Pago Entrada cine</string>
+    <string name="txt_caltomenu">Regreso al menu</string>
+    <string name="Numero1">EL NUMERO 1</string>
+    <string name="Numero2">EL NUMERO 2</string>
+    <string name="txtresultadocal">El resultado</string>
+    <string name="Suma">SUMAR</string>
+    <string name="Resta">Restar</string>
+    <string name="Multiplica">Multiplicar</string>
+    <string name="Divide">Dividir</string>
+    <string name="txtcaltomenu">MENUPRINCIPAL</string>
+    <string name="txtpromtomain">MENU PRINCIPAL</string>
+    <string name="escriba_1">Escriba # 1</string>
+    <string name="escriba_2">Escriba # 2</string>
+    <string name="elresultadocal">El resultado</string>
+    <string name="txtcalprom">CALCULAR</string>
+    <string name="txtnum1prom">Escriba NOTA 1</string>
+    <string name="txtnum2prom">Escriba NOTA 2</string>
+    <string name="txtnum3prom">Escriba NOTA 3</string>
+    //Entrada cine
+    <string name="txtcinetomenu">MENU PRINCIPAL</string>
+    <string name="txtcinetocal">IR CALCULADORA</string>
+
+
+
+</resources>
