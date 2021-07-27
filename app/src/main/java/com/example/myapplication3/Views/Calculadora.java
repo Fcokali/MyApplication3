@@ -4,9 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.myapplication3.R;
 
@@ -60,7 +60,22 @@ public class Calculadora extends AppCompatActivity {
         et_resultado.setText(resultado);
     }
 
-    public void goMain(View view) {
+    public void Dividir(View view) {
+
+        int num1 = integer.parseInt(et_numer1.getText().toString());
+        int num2 = integer.parseInt(et_numer2.getText().toString());
+
+        if (num2 != 0) {
+            int operacion = num1 / num2;
+            String resultado = String.valueOf(operacion);
+            et_resultado.setText(resultado);
+        } else {
+            Toast.makeText(this, "EL SEGUNDO VALOR DEBE SER DIFERENTE DE CERO", Toast.LENGTH_LONG).show();
+
+        }
+    }
+
+    public void Gomain1(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }

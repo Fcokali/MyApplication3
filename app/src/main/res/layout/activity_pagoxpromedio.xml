@@ -13,7 +13,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginBottom="40dp"
-        android:onClick="goMain2"
+        android:onClick="Gomain"
         android:text="@string/txtpromtomain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 /*import com.example.myapplication3.Interactor.PromedioInteractor;
 import com.example.myapplication3.Interfaces.PromedioInterface;
 import com.example.myapplication3.Presenters.PromedioPresenter;*/
@@ -45,11 +46,21 @@ public class promedioview extends AppCompatActivity  {
        //final Void promediar = presentador.promediar(n1, n2, n3);
        double Prom = (n1 + n2 + n3) / 3;
 
-       String ELPromedio = String.valueOf(Prom);
-       elresultado.setText(ELPromedio);
+       if (Prom >=3) {
+           elresultado.setText("Aprobado con promedio  igual a:" + Prom);
+       } else if (Prom < 3) {
+           elresultado.setText( "Reprobado con promedio igual a:"  + Prom);
+       }
+       //String.format("El triangulo es %s.\nEl area es (%.3f).\nEl perimetro es (%.3f).", t, a, p)
+
+
+
+
+       /*String ELPromedio = String.valueOf(Prom);
+       elresultado.setText(ELPromedio);*/
    }
 
-    public void goMain2(View view) {
+    public void Gomain(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }

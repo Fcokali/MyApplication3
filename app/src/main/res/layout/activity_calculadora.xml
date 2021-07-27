@@ -10,11 +10,11 @@
         android:id="@+id/txtcaltomenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        android:layout_marginLeft="156dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginBottom="36dp"
         android:background="#87BD48"
-        android:onClick="goMain"
+        android:onClick="Gomain1"
         android:text="@string/txtcaltomenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -79,6 +79,7 @@
         android:layout_marginEnd="84dp"
         android:layout_marginRight="84dp"
         android:background="#673AB7"
+        android:onClick="Dividir"
         android:text="@string/Divide"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Multiplica" />
